@@ -448,8 +448,16 @@ a.see-all:hover {
   gap: 1.5rem;
 }
 
+.social-media-group li {
+  display: block;
+  height: 100%;
+}
+
 .social-media-group a {
   position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 .social-media-group a::after {
   position: absolute;
