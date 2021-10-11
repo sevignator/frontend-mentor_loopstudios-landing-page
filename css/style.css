@@ -72,6 +72,11 @@ h2 {
 .site-content {
   margin-top: 16.5rem;
 }
+@media (max-width: 768px) {
+  .site-content {
+    margin-top: 10rem;
+  }
+}
 
 .site-content .content-section {
   position: relative;
@@ -79,6 +84,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 18rem;
+}
+@media (max-width: 768px) {
+  .site-content .content-section {
+    margin-bottom: 8rem;
+  }
 }
 
 .site-footer {
@@ -198,7 +208,7 @@ h2 {
   .promo-block__text {
     position: static;
     max-width: 100%;
-    padding: 3rem;
+    padding: 5rem 3rem 3rem;
   }
 }
 
@@ -246,6 +256,7 @@ a.see-all {
 @media (max-width: 768px) {
   .creations-grid {
     grid-template-columns: 1fr;
+    margin-top: 0;
   }
 }
 
