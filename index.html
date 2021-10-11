@@ -1,59 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Loopstudios landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="./js/menu.js" defer></script>
 </head>
+
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header class="site-header">
+    <div class="wrapper">
+      <section class="site-header--top">
+        <a href="#" class="site-logo"><img src="./images/logo.svg" alt=""></a>
+        <button class="nav-button">
+          <img src="./images/icon-hamburger.svg" alt="">
+        </button>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="site-header--bottom">
+        <h1 class="page-title">Immersive experiences that deliver</h1>
+      </section>
+    </div>
+  </header>
 
-  Immersive experiences that deliver
+  <main class="site-content">
+    <div class="wrapper">
+      <section class="content-section">
+        <div class="promo-block">
+          <div class="promo-block__image">
+            <img src="./images/desktop/image-interactive.jpg" alt="">
+          </div>
+          <div class="promo-block__text">
+            <h2>The leader in interactive VR</h2>
+            <p class="text-muted">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content-section">
+        <h2>Our creations</h2>
+        <div class="creations-grid">
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">Deep<br> earth</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">Night<br> arcade</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">Soccer<br> team VR</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">The<br> grid</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">From up<br> above VR</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">Pocket<br> borealis</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">The<br> curiosity</span>
+          </a>
+          <a href="#" class="creations-grid__item">
+            <span class="creations-grid__link">Make it<br> fisheye</span>
+          </a>
+        </div>
+        <a href="#" class="see-all">See all</a>
+      </section>
+    </div>
+  </main>
 
-  The leader in interactive VR
+  <footer class="site-footer">
+    <div class="wrapper site-footer__container">
+      <div class="site-footer__primary">
+        <a href="#" class="site-logo"><img src="./images/logo.svg" alt=""></a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="site-footer__secondary">
+        <ul class="social-media-group">
+          <li>
+            <a href="#">
+              <img src="./images/icon-facebook.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icon-twitter.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icon-pinterest.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icon-instagram.svg" alt="">
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
